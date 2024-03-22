@@ -2,10 +2,12 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Overview } from './components/overview'
 import { RecentSales } from './components/recent-sales'
+import { Dropdown } from './components/Dropdown'
 
 export default function Home() {
   return (
     <>
+    <Dropdown />
        <h2 className="text-3xl font-bold tracking-tight my-4">Dashboard</h2>
 
       <div className="flex-1 space-y-4">

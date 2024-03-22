@@ -6,6 +6,8 @@ import PageWrapper from '@/components/pagewrapper';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Metadata } from 'next';
 
+
+
 const karla = Karla({
   weight: ["200", "300", "400", "500", "600", "700", "800"],
   subsets: ['latin'],
@@ -34,7 +36,9 @@ export default function RootLayout({
             <SideBar />
             <div className="flex flex-col h-full w-full">
               <Header />
+          
               <PageWrapper children={children} />
+
             </div>
           </>
         </ThemeProvider>

@@ -10,17 +10,17 @@ export function UserNav() {
             <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="relative h-8 w-8 rounded-full">
                     <Avatar className="h-10 w-10">
-                        <AvatarImage src="/avatars/02.png" alt="" />
-                        <AvatarFallback>SR</AvatarFallback>
+                        <AvatarImage src="/avatars/02.jpg" alt="" />
+                        <AvatarFallback>Rk</AvatarFallback>
                     </Avatar>
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56 z-[99998]">
                 <DropdownMenuLabel>
                     <div className="flex flex-col space-y-1">
-                        <p className="text-sm font-medium leading-none">Sijin Raj</p>
+                        <p className="text-sm font-medium leading-none">Ramu Kaka</p>
                         <p className="text-xs leading-none text-muted-foreground">
-                            sijin@outlook.com
+                          Farmer1@gmail.com
                         </p>
                     </div>
                 </DropdownMenuLabel>
@@ -31,8 +31,8 @@ export function UserNav() {
                         <DropdownMenuShortcut>⇧⌘P</DropdownMenuShortcut>
                     </DropdownMenuItem>
                     <DropdownMenuItem>
-                        Settings
-                        <DropdownMenuShortcut>⌘S</DropdownMenuShortcut>
+                       Staements
+                        <DropdownMenuShortcut>⌘P&L</DropdownMenuShortcut>
                     </DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
