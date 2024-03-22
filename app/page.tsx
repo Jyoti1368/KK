@@ -3,6 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Overview } from './components/overview'
 import { RecentSales } from './components/recent-sales'
 import { Dropdown } from './components/Dropdown'
+import { Form } from './components/Form'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
        <h2 className="text-3xl font-bold tracking-tight my-4">Dashboard</h2>
 
       <div className="flex-1 space-y-4">
+        <Form />
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
